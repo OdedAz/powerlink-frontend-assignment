@@ -1,0 +1,84 @@
+body {
+  font-family: "Arimo", sans-serif;
+  direction: ltr;
+}
+.background {
+  background-image: url("https://stage.powerlink.co.il/web/bg_login.png");
+  background-size: 100% 100%;
+  position: absolute;
+  height: 100%;
+  width: 100%;
+}
+.form {
+  background-color: white;
+  width: 539px;
+  margin: auto;
+  height: 100%;
+}
+.form-control {
+    padding: 0;
+}
+.form .form-control:focus {
+    color: #212529;
+    background-color: #fff;
+    border: none;
+    outline: 0;
+    box-shadow: none;
+    border-bottom: 1px solid #ced4da;
+}
+.form #logoWrapper {
+    margin-bottom: 5vh!important;
+}
+.form .logo-wrapper .upper-logo-in-form {
+  padding-top: 10vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.form .logo-wrapper .upper-logo-in-form img {
+  max-width: 186px;
+}
+.form .logo-wrapper .logo-text {
+  margin-left: 22px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.form .form-field {
+  margin: 0 6vw;
+}
+
+.form .form-field input {
+  border: none;
+  border-radius: 0%;
+  border-bottom: 1px solid #ced4da;
+  margin-bottom: 3vh;
+}
+
+.form .next-btn {
+  width: 95%;
+  border-radius: 25px;
+  margin-left: 1vh;
+  background-color: #447AEF;
+}
+
+.form .terms-and-conditions {
+  color: #808184;
+  font-size: 12px;
+  margin: 26px 0px;
+}
+
+.form .terms-and-conditions a {
+  color: #808184;
+}
+
+.alert-show {
+    display: block !important;
+}
+.alert-no-show {
+    display: none !important;
+}
+
+.invalid-feedback {
+    margin: -1rem 0 1rem 0;
+}

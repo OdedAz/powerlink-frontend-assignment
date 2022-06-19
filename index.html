@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./style.css" />
+    <!-- CSS only -->
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor"
+      crossorigin="anonymous"
+    />
+    <!-- JavaScript Bundle with Popper -->
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2"
+      crossorigin="anonymous"
+    ></script>
+    
+    <title>Document</title>
+  </head>
+  <body>
+    <div class="background">
+      <form class="form">
+        <div id=logoWrapper class="mb-3 logo-wrapper">
+            <div class="upper-logo-in-form">
+                <img src="	https://stage.powerlink.co.il/web/grp.png" />
+            </div>
+            <div class="logo-text">
+                <h4>Start now for free</h4>
+            </div>
+        </div>
+        <div class="mb-3 form-field">
+            <label for="emailInput" class="visually-hidden"
+            >Email address</label
+            >
+            <input
+                type="email"
+                class="form-control"
+                id="emailInput"
+                aria-describedby="emailHelp"
+                placeholder="Email address"
+                />
+            <div id="emailFeedback" class="invalid-feedback">
+                Please provide a correct mail address between 3 to 50 characters.
+            </div>
+        </div>
+        
+        <div class="mb-3 form-field">
+            <label for="passwordInput" class="visually-hidden">Password</label>
+            <input
+              type="password"
+              class="form-control"
+              id="passwordInput"
+              placeholder="Password"
+              aria-describedby="invalid-feedback"
+            />
+            <div id="passwordFeedback" class="invalid-feedback">
+                Please provide a password that contain between 3 to 50 characters.
+            </div>
+        <button id="nextBtn" type="submit" class="btn btn-primary next-btn">Next</button>
+        <div class="terms-and-conditions">
+            By clicking next, you agree to our <a href=""> Terms & Conditions</a><br />
+                and that you have read our <a href=""> Privacy Policy</a>
+        </div>
+        
+      </form>
+    </div>
+    <script src="./index.js"></script>
+  </body>
+</html>
